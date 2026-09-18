@@ -7,7 +7,7 @@ If you can honestly say *“I don't know what Java is,”* start at Chapter 1. T
 > I can design, code, test, debug, review, and maintain professional Java-based software and automation frameworks.
 
 ---
-<video src="https://github.com/user-attachments/assets/0c583563-5c00-424c-aa66-53de10582a29" controls="controls" width="640" height="360">
+<video src="https://github.com/user-attachments/assets/0c583563-5c00-424c-aa66-53de10582a29" controls="controls" width="640" height="640">
 </video>
 
 ---
