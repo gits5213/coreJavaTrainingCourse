@@ -15,6 +15,36 @@ Use this file with tools such as HeyGen, Synthesia, InVideo, Google Veo, Runway,
 
 ---
 
+## HeyGen — concise (paste this)
+
+**Avatar:** warm adult teacher, smart-casual, home office, captions on, moderate pace.
+
+**Prompt:**
+
+```text
+A calm 90-second talking-head video for non-technical beginners. Friendly teacher explains how to use the Java SDET course. No jargon without a plain-English translation. No code on screen. End with three steps: open README, open How to Use This Course, open Chapter 1.
+```
+
+**Script** (paste into HeyGen Script — HeyGen will read this word for word):
+
+```text
+If you have never written a program, you are in the right place. You do not need a computer science degree. You do not need to know Java yet.
+
+Java is a language for giving a computer precise instructions. SDET means a person who writes programs that check other programs. That sounds advanced. We do not start there. We start with a simple question: what is a computer?
+
+When you open this course, README is the front door. The docs folder is the classroom. Lessons are practice. Projects are small builds. The capstone is graduation. Do not open that on day one.
+
+Here is what you do today. Open README. Then open How to Use This Course. Then open Chapter 1.
+
+Every chapter is the same class. Read the goal. Learn why it matters. See a simple analogy. Type the tiny example. We will break the code on purpose, then fix it. Do not copy and paste your way through. Type it. If you see an error, that is a clue, not a failure.
+
+Do not skip ahead to Selenium. Do not start typing until you can explain the steps out loud.
+
+Pause this video. Open Chapter 1. Read today's goal. Say it in one sentence. That is a real start. Welcome. We will go slowly, and we will go in order.
+```
+
+---
+
 ## 1. Master prompt (paste this first)
 
 ```text
