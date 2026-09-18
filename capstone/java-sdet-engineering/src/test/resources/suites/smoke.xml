@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CapstoneSmoke" verbose="1">
+    <!-- Placeholder for a later TestNG split. Default tests in this skeleton are JUnit 5. -->
+    <test name="Smoke">
+        <classes>
+            <class name="com.company.tests.smoke.PlatformSmokeTest"/>
+        </classes>
+    </test>
+</suite>

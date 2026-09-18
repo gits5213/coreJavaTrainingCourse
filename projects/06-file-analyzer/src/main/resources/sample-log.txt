@@ -1,0 +1,7 @@
+loginTest PASS
+checkoutTest FAIL
+searchTest PASS
+paymentApiTest FAIL
+logoutTest PASS
+profileTest PASS
+cartTest FAIL

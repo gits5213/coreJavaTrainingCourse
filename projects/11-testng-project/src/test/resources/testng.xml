@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="StatusCodeSuite" verbose="1">
+    <test name="StatusCodeValidator">
+        <classes>
+            <class name="com.sdet.projects.testngdemo.StatusCodeValidatorTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+[
+  {
+    "username": "valid.user",
+    "password": "correct-password",
+    "expectedValid": true
+  },
+  {
+    "username": "valid.user",
+    "password": "wrong-password",
+    "expectedValid": false
+  },
+  {
+    "username": "unknown.user",
+    "password": "correct-password",
+    "expectedValid": false
+  }
+]

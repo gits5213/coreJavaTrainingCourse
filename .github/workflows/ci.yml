@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+          cache: maven
+
+      - name: Compile lessons
+        run: mvn -f lessons/pom.xml -q test compile
+
+      - name: Offline project tests
+        run: |
+          set -e
+          for pom in \
+            projects/02-calculator/pom.xml \
+            projects/03-student-grade-calculator/pom.xml \
+            projects/04-bank-account-simulator/pom.xml \
+            projects/05-employee-management/pom.xml \
+            projects/06-file-analyzer/pom.xml \
+            projects/07-test-result-analyzer/pom.xml \
+            projects/09-database-validator/pom.xml \
+            projects/10-junit-tests/pom.xml \
+            projects/11-testng-project/pom.xml \
+            projects/12-selenium-ui/pom.xml \
+            projects/13-rest-assured-api/pom.xml \
+            projects/14-data-driven-framework/pom.xml \
+            projects/15-cross-browser-framework/pom.xml \
+            projects/16-parallel-framework/pom.xml \
+            projects/17-cicd-framework/pom.xml \
+            capstone/java-sdet-engineering/pom.xml
+          do
+            echo "==> $pom"
+            mvn -f "$pom" -q test
+          done
