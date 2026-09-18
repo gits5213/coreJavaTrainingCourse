@@ -7,6 +7,8 @@ If you can honestly say *“I don't know what Java is,”* start at Chapter 1. T
 > I can design, code, test, debug, review, and maintain professional Java-based software and automation frameworks.
 
 ---
+[Presentation](coreJavaTrainingCourse/video/coreJavaTraining.MP4)
+---
 
 ## Book purpose
 
